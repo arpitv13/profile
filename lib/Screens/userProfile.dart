@@ -1,10 +1,11 @@
+library counter;
+
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
-import 'arrowCardButton.dart';
-import 'orderHistoryCard.dart';
+import '../Widgets/commonWidgets.dart';
 import 'package:provider/provider.dart';
 import 'package:profilescreen/profile_data.dart';
+
 
 class userProfile extends StatelessWidget {
   @override
@@ -22,7 +23,7 @@ class userProfile extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     Padding(
-                      padding: EdgeInsets.all(18.0),
+                      padding: EdgeInsets.fromLTRB(16.0, 10.0, 16.0, 16.0),
                       child: Row(
                         children: <Widget>[
                           Container(
